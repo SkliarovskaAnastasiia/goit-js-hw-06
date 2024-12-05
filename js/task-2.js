@@ -19,9 +19,6 @@ class Storage {
         this.#items.splice(this.#items.indexOf(item), 1);
       }
     });
-    // if (this.#items.includes(itemToRemove)) {
-    //   this.#items.splice(this.#items.indexOf(itemToRemove), 1);
-    // }
   }
 }
 const storage = new Storage(['Nanitoids', 'Prolonger', 'Antigravitator']);
